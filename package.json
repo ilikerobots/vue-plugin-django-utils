@@ -1,12 +1,12 @@
 {
-  "name": "vue-plugin-django-utils",
-  "version": "0.1.0",
+  "name": "@ilikerobots/vue-plugin-django-utils",
+  "version": "0.1.2",
   "description": "Plugin and helpers useful for integrating with Django",
   "type": "module",
   "module": "dist/index.js",
   "scripts": {
      "build": "rollup -c",
-     "prepublishOnly": "npm build"
+     "prepublishOnly": "npm run build"
   },
   "author": "",
   "license": "ISC",
