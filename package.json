@@ -1,0 +1,19 @@
+{
+  "name": "vue-plugin-django-utils",
+  "version": "0.1.0",
+  "description": "Plugin and helpers useful for integrating with Django",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.29.4",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.2.2",
+    "vue": "^3.3.4"
+  }
+}
