@@ -10,7 +10,10 @@
 
 ## Install
 
-Add as a dependency to your Vue project, e.g.  `npm install @ilikerobots/vue-plugin-django-utils`
+Add as a dependency to your Vue project, e.g.  
+```shell
+npm install @ilikerobots/vue-plugin-django-utils
+````
 
 ## Usage
 
@@ -18,8 +21,8 @@ In your Vue entrypoint(s),
 
 ```javascript
 
-import DjangoUtilsPlugin from 'vue-plugin-django-utils'
-import {convertDatasetToProps} from 'vue-plugin-django-utils'
+import DjangoUtilsPlugin from '@ilikerobots/vue-plugin-django-utils'
+import {convertDatasetToProps} from '@ilikerobots/vue-plugin-django-utils'
 
 const rootEl = document.getElementById('my-root')
 if (rootEl) {
