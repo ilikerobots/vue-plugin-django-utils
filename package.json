@@ -2,9 +2,11 @@
   "name": "vue-plugin-django-utils",
   "version": "0.1.0",
   "description": "Plugin and helpers useful for integrating with Django",
-  "main": "index.js",
+  "type": "module",
+  "module": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "build": "rollup -c",
+     "prepublishOnly": "npm build"
   },
   "author": "",
   "license": "ISC",
