@@ -1,6 +1,6 @@
 {
-  "name": "@ilikerobots/vue-plugin-django-utils",
-  "version": "0.1.4",
+  "name": "vue-plugin-django-utils",
+  "version": "0.1.5",
   "description": "Vue plugin and helpers useful for integrating with Django",
   "type": "module",
   "module": "dist/index.js",

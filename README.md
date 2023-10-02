@@ -1,10 +1,10 @@
-# Welcome to @ilikerobots/vue-plugin-django-utils 👋
-[![Version](https://img.shields.io/npm/v/@ilikerobots/vue-plugin-django-utils.svg)](https://www.npmjs.com/package/@ilikerobots/vue-plugin-django-utils)
+# vue-plugin-django-utils 👋
+[![Version](https://img.shields.io/npm/v/vue-plugin-django-utils.svg)](https://www.npmjs.com/package/vue-plugin-django-utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-
-> Vue plugin and helpers useful for integrating with Django, based on the techbniques described at [Django Vue Cookiecutter](https://github.com/ilikerobots/cookiecutter-vue-django)
-
 ##### 🏠 [Homepage](https://github.com/ilikerobots/vue-plugin-django-utils)
+
+> Vue plugin and helpers useful for integrating with Django, based on the techniques described at [Django Vue Cookiecutter](https://github.com/ilikerobots/cookiecutter-vue-django)
+
 
 
 
@@ -12,7 +12,7 @@
 
 Add as a dependency to your Vue project, e.g.  
 ```shell
-npm install @ilikerobots/vue-plugin-django-utils
+npm install vue-plugin-django-utils
 ````
 
 ## Usage
@@ -21,8 +21,8 @@ In your Vue entrypoint(s),
 
 ```javascript
 
-import DjangoUtilsPlugin from '@ilikerobots/vue-plugin-django-utils'
-import {convertDatasetToProps} from '@ilikerobots/vue-plugin-django-utils'
+import DjangoUtilsPlugin from 'vue-plugin-django-utils'
+import {convertDatasetToProps} from 'vue-plugin-django-utils'
 
 const rootEl = document.getElementById('my-root')
 if (rootEl) {
