@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 ##### 🏠 [Homepage](https://github.com/ilikerobots/vue-plugin-django-utils)
 
-> Vue plugin and helpers useful for integrating with Django, based on the techniques described at [Django Vue Cookiecutter](https://github.com/ilikerobots/cookiecutter-vue-django)
+> Vue plugin and helpers useful for integrating with Django, based on the techniques described in the article [Django + Vue + Vite: REST Not Required](https://medium.com/@ilikerobots/django-vue-vite-rest-not-required-ca63cfa558fd) and in [Django Vue Cookiecutter](https://github.com/ilikerobots/cookiecutter-vue-django)
 
 
 
