@@ -37,7 +37,7 @@ if (rootEl) {
     // 2) Provide any key-value pairs in window.vueProvided
     // 3) Attached outerHTML of child elements w/ attribute data-django-slot=slotName in globalProperties.$djangoSlots
     app.use(DjangoUtilsPlugin, {rootElement: rootEl})
-    app.mount(statusEl)
+    app.mount(rootEl)
 }
 ```
 
